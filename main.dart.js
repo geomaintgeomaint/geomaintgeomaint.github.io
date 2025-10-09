@@ -103074,7 +103074,7 @@ a=a.c.a
 a0=$.dh
 if(a0==null)a0=$.dh=new A.fI()
 a0.fj(a.e6$)
-j=J.aP(a.hg$,"user_info")
+j=J.aP(a.hg$,"user_info_inventory")
 k=A.aB8(B.Z.iu(0,j))
 J.eT(l,"token",k.w)
 J.eT(l,"nsim",k.e)}catch(b6){}i="https://api.geomaint.com"+b1
@@ -103696,7 +103696,7 @@ p=p.c.a
 o=$.dh
 if(o==null)o=$.dh=new A.fI()
 o.fj(p.e6$)
-n=J.aP(p.hg$,"user_info")
+n=J.aP(p.hg$,"user_info_inventory")
 if(n!=null){q.cy.sl(0,A.aB8(B.Z.iu(0,n)))
 m.sl(0,!0)}p=m.cj$
 m=m.gl(0)
@@ -104145,7 +104145,7 @@ p=p.c.a
 o=$.dh
 if(o==null)o=$.dh=new A.fI()
 o.fj(p.e6$)
-n=J.aP(p.hg$,"user_info")
+n=J.aP(p.hg$,"user_info_inventory")
 if(n!=null){q.CW.sl(0,A.aB8(B.Z.iu(0,n)))
 m.sl(0,!0)}p=m.cj$
 m=m.gl(0)
@@ -104409,12 +104409,12 @@ case 2:p=b
 o=J.ax(p)
 s=J.c(o.h(p,"success"),!0)?3:5
 break
-case 3:A.wb("access_token",J.aP(o.h(p,"user"),"token"))
-A.wb("login_info",B.Z.ix(new A.anl(m.h(0,"nsim"),m.h(0,"password")).cR()))
-A.wb("user_info",B.Z.ix(A.aB8(o.h(p,"user")).a9u(!0)))
+case 3:A.wb("access_token_inventory",J.aP(o.h(p,"user"),"token"))
+A.wb("login_info_inventory",B.Z.ix(new A.anl(m.h(0,"nsim"),m.h(0,"password")).cR()))
+A.wb("user_info_inventory",B.Z.ix(A.aB8(o.h(p,"user")).a9u(!0)))
 o=o.h(p,"user")
 o=o==null?null:J.aP(o,"_id")
-A.wb("user_id",o==null?"":o)
+A.wb("user_id_inventory",o==null?"":o)
 s=6
 return A.N(A.iY(B.dB,null,n),$async$vO)
 case 6:A.abd()
@@ -104791,7 +104791,7 @@ p=p.c.a
 o=$.dh
 if(o==null)o=$.dh=new A.fI()
 o.fj(p.e6$)
-p=J.aP(p.hg$,"user_id")
+p=J.aP(p.hg$,"user_id_inventory")
 if(p==null)p=""
 q.fr.sl(0,p)
 p=q.ax
@@ -105053,7 +105053,7 @@ r=r.c.a
 s=$.dh
 if(s==null)s=$.dh=new A.fI()
 s.fj(r.e6$)
-if(J.aP(r.hg$,"access_token")!=null)return B.a9W
+if(J.aP(r.hg$,"access_token_inventory")!=null)return B.a9W
 return null}}
 A.abf.prototype={
 $2(a,b){},
