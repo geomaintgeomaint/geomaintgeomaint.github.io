@@ -105978,7 +105978,7 @@ p=$.m
 r=(p==null?$.m=B.f:p).N(0,q,s).gaKe()
 p=A.a(r.slice(0),A.a1(r))
 p=new A.fI(p,A.a1(p).i("fI<1>"))
-return new A.hj(A.bm(q,A.aWd(B.Yp,0,!1,1280,p.ghg(p).f0(0,new A.aBu(),t.yR).eS(0)),B.Y,q,q,B.mQ,q,q,q,B.ae,q,q,q,q),q)},
+return new A.hj(A.bm(q,A.aWd(B.Yp,0,!1,1440,p.ghg(p).f0(0,new A.aBu(),t.yR).eS(0)),B.Y,q,q,B.mQ,q,q,q,B.ae,q,q,q,q),q)},
 $S:59}
 A.aBu.prototype={
 $1(a){var s,r,q,p,o,n,m,l,k=null,j="-",i=a.b,h=i.ax,g=i.e
