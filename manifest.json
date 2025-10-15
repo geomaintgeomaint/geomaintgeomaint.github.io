@@ -1,11 +1,11 @@
 {
-    "name": "Inventory BMKG",
-    "short_name": "Inventory BMKG",
+    "name": "GeoMaint Inventory",
+    "short_name": "GeoMaint Inventory",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Inventory BMKG: Pembuatan Berbagai Inventory BMKG",
+    "description": "GeoMaint Inventory: Pembuatan Berbagai GeoMaint Inventory",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
