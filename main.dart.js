@@ -104631,7 +104631,7 @@ n=q.ay.gj(0)
 o=o.eF(n==null?A.bQ(A.b1(new A.bF(Date.now(),0,!1)),1,1,0,0,0,0,0):n)
 n=A.eR("yyyy-MM-dd",null)
 m=q.ch.gj(0)
-l=A.ag(["startDate",o,"endDate",n.eF(m==null?A.bQ(A.b1(new A.bF(Date.now(),0,!1)),1,1,0,0,0,0,0):m)],t.N,t.z)
+l=A.ag(["startDate",o,"endDate",n.eF(m==null?A.bQ(A.b1(new A.bF(Date.now(),0,!1)),12,31,0,0,0,0,0):m)],t.N,t.z)
 s=2
 return A.L(A.jX().oF("/sukucadang_activity/rekap",l,B.cf,!0).fQ(new A.aea()),$async$iL)
 case 2:k=b
