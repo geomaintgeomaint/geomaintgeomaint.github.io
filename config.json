@@ -1,5 +1,5 @@
 {
-  "BASE_URL": "https://api.geomaint.com",
+  "BASE_URL": "https://api.geomaint.co/test/123",
   "ENDPOINTS": {
     "LOGIN": "/login",
     "SUKUCADANG": "/sukucadang",
