@@ -1,0 +1,23 @@
+{
+  "BASE_URL": "https://api.geomaint.com",
+  "ENDPOINTS": {
+    "LOGIN": "/login",
+    "SUKUCADANG": "/sukucadang",
+    "SUKUCADANGLIST": "/sukucadang/list",
+    "UPLOADIMAGE": "/uploadImage",
+    "SUKUCADANGACTIVITYREKAP": "/sukucadang_activity/rekap",
+    "SUKUCADANGHISTORY": "/sukucadang_activity/history/",
+    "SUKUCADANGACTIVITYLIST": "/sukucadang_activity/list",
+    "ADDOUTBOUND": "/sukucadang_activity/outbound",
+    "ADDINBOUND": "/sukucadang_activity/inbound",
+    "LISTSITE": "/openapi/metadata",
+    "UPLOADSUKUCADANG": "/sukucadang/uploadFile",
+    "SUKUCADANGTEMPLETE": "/file/template_suku_cadang.xlsx",
+    "DOWNLOADINVENTORY": "/sukucadang/download",
+    "UPLOADTRANSFER": "/sukucadang_activity/uploadFile",
+    "TRANSFERTEMPLETE": "/file/template_suku_cadang_activity.xlsx",
+    "DOWNLOADTRANSFER": "/sukucadang_activity/download",
+    "DOWNLOADREKAP": "/sukucadang_activity/rekap/download"
+  },
+  "VERSION": "1.0.0"
+}
