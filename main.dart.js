@@ -104282,10 +104282,10 @@ h=t.jq
 k=t.N
 l=A.aWJ(B.io,B.jV,(l==null?$.i=B.e:l).L(0,i,s).CW,"Suku Cadang Masuk",new A.aek(),new A.ael(),h,k)
 j=$.i
-h=A.b_8(n,B.rU,B.a8B,A.a([l,A.aWJ(B.a8i,B.jV,(j==null?$.i=B.e:j).L(0,i,s).CW,"Suku Cadang Keluar",new A.aem(),new A.aen(),h,k)],t.kl),B.Qu,m)
+h=A.b_8(n,B.rU,B.a8B,A.a([l,A.aWJ(B.a8i,B.jV,(j==null?$.i=B.e:j).L(0,i,s).CW,"Suku Cadang Keluar",new A.aem(),new A.aen(),h,k)],t.kl),B.Qv,m)
 n=A.aTr(!0)
 m=$.i
-return new A.hn(A.fV(A.bs(A.a([B.bG,new A.Id(B.Qv,o,q,p,i),B.bG,h,B.bG,A.b_8(B.Wm,B.rU,B.a8A,A.a([new A.y7(new A.aeo(),i,i,i,i,i,i,i,i,i,(m==null?$.i=B.e:m).L(0,i,s).CW,new A.aep(),i,i,B.fe,B.jV,B.a8h,i,!0,1500,B.GO,2,i,!0,B.fw,i,i,1,i,B.cg,!0,0,i,i,i,i,t.kg)],t.hy),B.Qw,n)],t.p),B.t,B.q,B.p),i,new A.aq(r,r,r,r),i,B.Y),i)},
+return new A.hn(A.fV(A.bs(A.a([B.bG,new A.Id(B.Qu,o,q,p,i),B.bG,h,B.bG,A.b_8(B.Wm,B.rU,B.a8A,A.a([new A.y7(new A.aeo(),i,i,i,i,i,i,i,i,i,(m==null?$.i=B.e:m).L(0,i,s).CW,new A.aep(),i,i,B.fe,B.jV,B.a8h,i,!0,1500,B.GO,2,i,!0,B.fw,i,i,1,i,B.cg,!0,0,i,i,i,i,t.kg)],t.hy),B.Qw,n)],t.p),B.t,B.q,B.p),i,new A.aq(r,r,r,r),i,B.Y),i)},
 $S:61}
 A.aej.prototype={
 $2(a,b){return a.d},
@@ -121775,11 +121775,11 @@ B.Qt=new A.t4(3,"additional")
 B.n8=new A.t4(4,"round")
 B.amG=new A.QM(0,"start")
 B.amH=new A.QM(1,"end")
+B.amI=new A.t5("",null)
 B.c6=new A.k6(6,700)
 B.b2=new A.I(!0,null,null,null,null,null,null,B.c6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Qu=new A.t5("Suku Cadang Masuk vs OSuku Cadang Keluar per Item\n",B.b2)
-B.amI=new A.t5("",null)
-B.Qv=new A.t5("Stock Composition by Item\n",B.b2)
+B.Qu=new A.t5("Stock Composition by Item\n",B.b2)
+B.Qv=new A.t5("Suku Cadang Masuk vs Suku Cadang Keluar per Item\n",B.b2)
 B.Qw=new A.t5("Net Movement (Suku Cadang Masuk - Suku Cadang Keluar)\n",B.b2)
 B.Qx=new A.wP(null,null,null,null,null,null,null,null,null)
 B.Qy=new A.D_(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
